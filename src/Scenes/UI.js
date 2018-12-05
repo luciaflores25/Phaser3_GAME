@@ -14,6 +14,8 @@ export default class UIScene extends Phaser.Scene {
     this.scoreText = this.add.text(12, 12, `Monedas: ${this.coinsCollected}`, { fontSize: '40px', backgroundColor: '#000', fill: '#FFFC00' });
     // creamos el texto de información del límite
     this.limitText = this.add.text(780, 12, `¡Consigue 50 monedas para ganar!`, { fontSize: '30px', backgroundColor: '#580C3C', fill: '#EAEDB6' });
+    // creamos el texto de información de manejo
+    this.spaceText = this.add.text(780, 42, `Pulsa espacio para disparar\nUtiliza las flechas para moverte`, { fontSize: '20px', backgroundColor: '#134A70', fill: '#FFFFFF' });
     // creamos el texto que se muestra al ganar y lo ponemos invisible
     this.winText1 = this.add.text(80, 200, `¡Enhorabuena, `, { fontSize: '70px', backgroundColor: '#13E14D', fill: '#FCFF00' });
     this.winText2 = this.add.text(80, 263, `has conseguido 50 monedas!`, { fontSize: '70px', backgroundColor: '#13E14D', fill: '#FCFF00' });

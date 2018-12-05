@@ -50,6 +50,8 @@ export default class GameScene extends Phaser.Scene {
     this.musicaFondo = this.sound.add('laSirenitaSound');
     // sonido al disparar
     this.disparoSound = this.sound.add('bulletSound');
+    // sonido al coger una moneda
+    this.coinSound = this.sound.add('coinSound');
     // sonido al ganar
     this.victoriaSound = this.sound.add('victoriaSound');
     // sonido al perder

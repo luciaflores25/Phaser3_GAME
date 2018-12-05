@@ -15,6 +15,7 @@ export default class Coins extends Phaser.Physics.Arcade.StaticGroup {
   collectCoin (player, coin) {
     this.remove(coin);
     coin.destroy();
+    self.game.scene.keys.Game.coinSound.play();
     this.scene.events.emit('coinCollected');
   }
 }

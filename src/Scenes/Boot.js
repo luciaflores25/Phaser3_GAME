@@ -33,6 +33,7 @@ export default class BootScene extends Phaser.Scene {
     // cargamos los sonidos
     this.load.audio('laSirenitaSound', 'assets/sounds/laSirenitaSound.mp3');
     this.load.audio('bulletSound', 'assets/sounds/bulletSound.mp3');
+    this.load.audio('coinSound', 'assets/sounds/coin.mp3');
     this.load.audio('victoriaSound', 'assets/sounds/victoria.mp3');
     this.load.audio('gameOverSound', 'assets/sounds/gameOver.mp3');
   }
